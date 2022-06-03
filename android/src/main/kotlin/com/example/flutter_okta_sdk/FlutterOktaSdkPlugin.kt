@@ -68,7 +68,7 @@ class FlutterOktaSdkPlugin : FlutterPlugin, MethodCallHandler,
     private lateinit var channel: MethodChannel
 
     private var applicationContext: Context? = null
-    private var mainActivity: Activity? = null
+    private var mainActivity: Activity = null
 
     companion object {
         fun registerWith(registrar: Registrar) {
